@@ -309,7 +309,7 @@ window=64240 chksum=0xbded urgptr=0 options=[('MSS', 1460)] |<Padding  load='\x0
 
 使用僵尸主机扫描目标主机，指定扫描端口范围
 
-`npm + 目标主机ip + -sI + 僵尸主机ip + -p1-1024`
+`nmap + 目标主机ip + -sI + 僵尸主机ip + -p1-1024`
 
 
 
