@@ -51,7 +51,7 @@ ping 延伸的命令，如 arping， fping， hping等
 arp攻击: 冒充网关，使用 `arping 网关 -c 1` 查看是否有ip冲突
 
 * arping 一次只能 ping 一个 ip
-* 自动 ping 所有 ip. 使用 shell 脚本， 大致思路是通过 ifconfig 查找出 ip和mask， 然后 arping 所有主机
+* 自动 ping 所有 ip. 使用 shell 脚本， 大致思路是通过 ifconfig 查找出 ip 和 mask， 然后 arping 所有主机
 
 **使用 netdiscover**
 
@@ -312,8 +312,6 @@ window=64240 chksum=0xbded urgptr=0 options=[('MSS', 1460)] |<Padding  load='\x0
 `nmap + 目标主机ip + -sI + 僵尸主机ip + -p1-1024`
 
 
-
-https://www.bilibili.com/video/BV1Kt411u73T?p=15&spm_id_from=pageDriver
 
 
 
